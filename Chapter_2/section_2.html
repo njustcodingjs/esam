@@ -1,0 +1,422 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Mozilla/4.77 [en] (Win98; U) [Netscape]">
+<meta name="Author" content="Default">
+<title>The New Physics - Probablity Amplitudes</title>
+</head>
+<body>
+&nbsp;
+<table cols=1 width="100%">
+<tr>
+<td bgcolor="#FFFFCC">
+<center>
+<h1>
+<a name="Top"></a>An Introduction to the Electronic Structure of Atoms
+and Molecules</h1></center>
+<center>Dr. Richard F.W. Bader&nbsp;
+<br><i><font size=-1>Professor of Chemistry / McMaster University / Hamilton,
+Ontario</font></i></center>
+<p><script type="text/javascript">function popup(mylink,windowname){if(!window.focus)return true;var href;if(typeof(mylink)=='string')href=mylink;else
+href=mylink.href;window.open(href,windowname,'width=600,height=125,scrollbars=yes');return false;}</script>
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td rowspan="15" width="300">
+<center><img src="ch2pic.jpg" height=288 width=231></center>
+</td>
+<td width="20"></td>
+<td colspan="2" width="510"><b><font color="#000099"><font size=+1><a href="../intro.html">Preface</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#3333FF"><font size=+1><a href="../Chapter_1/intro.html">1.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#3333FF"><font size=+1><a href="../Chapter_1/intro.html">The
+Nature of the Problem</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#CC0000"><font size=+1>2</font>.</font></b></td>
+<td colspan="2"><b><font color="#CC0000"><font size=+1>The New Physics</font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •</td>
+<td><b><font color="#000099"><font size=+1><a href="intro.html">Introduction</a></font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •</td>
+<td><b><font color="#000099"><font size=+1><a href="section_1.html">A Contrast
+of the Old and New Physics</a></font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •</td>
+<td><b><font color="#CC0000"><font size=+1>Probability Amplitudes</font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •</td>
+<td><b><font color="#000099"><font size=+1><a href="further_reading.html">Further
+Reading</a></font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •</td>
+<td><b><font color="#000099"><font size=+1><a href="problems.html">Problems</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#3333FF"><font size=+1><a href="../Chapter_3/intro.html">3.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../Chapter_3/intro.html">The
+Hydrogen Atom</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#000099"><font size=+1><a href="../Chapter_4/intro.html">4.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../Chapter_4/intro.html">Many-Electron
+Atoms</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#000099"><font size=+1><a href="../Chapter_5/intro.html">5.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../Chapter_5/intro.html">Electronic
+Basis for the Properties of the Elements</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#000099"><font size=+1><a href="../Chapter_6/intro.html">6.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../Chapter_6/intro.html">The
+Chemical Bond</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#000099"><font size=+1><a href="../Chapter_7/intro.html">7.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../Chapter_7/intro.html">Ionic
+and Covalent Binding</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#000099"><font size=+1><a href="../Chapter_8/intro.html">8.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../Chapter_8/intro.html">Molecular
+Orbitals</a></font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../contour_values.html">Table
+of Contour Values</a></font></font></b></td>
+</tr>
+</table>
+&nbsp;</td>
+</tr>
+</table>
+<hr width="100%">
+<br><b><font face="Times New Roman,Times"><font size=+1>Probability Amplitudes</font></font></b>
+<p>&nbsp;&nbsp;&nbsp; In quantum mechanics, Newton's familiar equations
+of motion are replaced by Schr&ouml;dinger's equation. We shall not discuss
+this equation in any detail, nor indeed even write it down, but one important
+aspect of it must be mentioned. When Newton's laws of motion are applied
+to a system, we obtain both the energy and an equation of motion. The equation
+of motion allows us to calculate the position or coordinates of the system
+at any instant of time. However, when Schr&ouml;dinger's equation is solved
+for a given system we obtain the energy directly, but not the probability
+distribution function<font face="LotusWP Type">C</font>the function which
+contains the information regarding the position of the particle. Instead,
+the solution of Schr&ouml;dinger's equation gives only the amplitude of
+the probability distribution function along with the energy. The probability
+distribution itself is obtained by <b><i>squaring the probability amplitude</i>.
+</b><font size=-1><a href="section2note1.html">(Click
+here for note.)</a></font> Thus for every allowed value of the energy,
+we obtain one or more (the energy value may be degenerate) probability
+amplitudes.
+<p>&nbsp;&nbsp;&nbsp; The probability amplitudes are functions only of
+the positional coordinates of the system and are generally denoted by the
+Greek letter<font face="Symbol"> y</font> (psi). For a bound system the
+amplitudes as well as the energies are determined by one or more quantum
+numbers. Thus for every <i>E<sub>n</sub></i> we have one or more<font face="Symbol">
+y</font><i><sub>n</sub></i>'s and by squaring the&nbsp; <font face="Symbol">y</font><i><sub>n</sub></i>'s
+we may obtain the corresponding <i>P<sub>n</sub></i>'s.
+<p>&nbsp;Let us look at the forms of the amplitude functions for the simple
+system of an electron confined to motion on a line. For any system, <font face="Symbol">y</font>&nbsp;
+is simply some mathematical function of the positional coordinates. In
+the present problem which involves only a single coordinate <i>x</i>, the
+amplitude functions may be plotted versus the <i>x</i>-coordinate in the
+form of a graph. The functions <font face="Symbol">y</font><i><sub>n</sub></i>
+are particularly simple in this case as they are sin functions.
+<br>&nbsp;
+<table cols=3 width="100%">
+<tr>
+<td width="7%">&nbsp;</td>
+<td>
+<center><img src="Image57.gif" height=32 width=210></center>
+</td>
+<td>
+<center><img src="Image21.gif" height=22 width=102></center>
+</td>
+</tr>
+</table>
+The first few <font face="Symbol">y</font><i><sub>n</sub></i>'s are shown
+plotted in <a href="section_2.html#Fig_2-8.">Fig. 2-8.</a>
+<p><a name="Fig_2-8."></a>
+<center><img src="fig2-8a.jpg" height=269 width=234><img src="fig2-8b.jpg" height=264 width=240><img src="fig2-8c.jpg" height=256 width=236><img src="fig2-8d.jpg" border=0 height=249 width=249><img src="fig2-8e.jpg" border=0 height=257 width=229><img src="fig2-8f.jpg" height=261 width=239></center>
+<p><font size=-1><b>Fig. 2-8.</b> The first six probability amplitudes
+<font face="Symbol">y</font><i><sub>n</sub></i>(<i>x</i>)
+for an electron moving on a line of length <i>L</i>. Note the <font face="Symbol">y</font><i><sub>n</sub></i>(<i>x</i>)
+may be negative in sign for certain values of <i>x</i>. The <font face="Symbol">y</font><i><sub>n</sub></i>(<i>x</i>)
+are squared to obtain the probability distrubrition functions <i>P<sub>n</sub></i>(<i>x</i>),
+which are, therefore, positive for all values of <i>x</i>. Wherever <font face="Symbol">y</font><i><sub>n</sub></i>(<i>x</i>)
+crosses the <i>x</i>-axis and changes sign, a node appears in the corresponding
+<i>P<sub>n</sub></i>(<i>x</i>).</font>
+<p>Each of these graphs, when squared, yields the corresponding <i>P<sub>n</sub></i>
+curves shown previously. When<i> n</i> = 1,
+<br>&nbsp;
+<table width="100%">
+<tr>
+<td width="7%"></td>
+<td>
+<center><img src="Image58.gif" height=32 width=198></center>
+</td>
+</tr>
+</table>
+<font color="#000000">When <i>x </i>= 0,</font>
+<br>&nbsp;
+<table width="100%">
+<tr>
+<td width="7%"></td>
+<td>
+<center><img src="Image59.gif" height=32 width=189></center>
+</td>
+</tr>
+</table>
+<font color="#000000">When <i>x </i>= <i>L,</i></font>
+<br>&nbsp;
+<table width="100%">
+<tr>
+<td width="7%"></td>
+<td>
+<center><img src="Image60.gif" height=32 width=196></center>
+</td>
+</tr>
+</table>
+<font color="#000000">When <i>x</i> =<i> L</i>/2,</font>
+<br>&nbsp;
+<table width="100%">
+<tr>
+<td width="7%"></td>
+<td>
+<center><img src="Image61.gif" height=32 width=262></center>
+</td>
+</tr>
+</table>
+Thus <font face="Symbol">y</font> equals zero at <i>x </i>= 0 and<i> x
+</i>=
+L and is a maximum when<i> x</i> =<i> L</i>/2. When this function is squared,
+we obtain:
+<br>&nbsp;
+<table width="100%">
+<tr>
+<td width="7%"></td>
+<td>
+<center><img src="Image62.gif" height=33 width=205></center>
+</td>
+</tr>
+</table>
+and the graph <font color="#000000"><a href="ref-fig2-4.html">(Fig. 2-4)</a></font>
+previously given for P<sub><font size=-1>1</font></sub>(<i>x</i>).
+<p>&nbsp;&nbsp;&nbsp; As illustrated previously in <font color="#CC0000"><a href="ref-fig2-4.html">Fig.
+2-4</a></font>, the value of <font face="Symbol">y</font><i><sub><font face="Times New Roman,Times">n</font></sub></i><sup><font size=-2>2</font></sup>(<i>x</i>)
+or <i>P<sub>n</sub></i>(<i>x</i>) multiplied by <font face="Symbol">D</font><i>x</i>,<font face="Symbol">
+y</font><i><sub>n</sub></i><sup><font size=-2>2</font></sup>(<i>x</i>)<font face="Symbol">D</font><i>x</i>,
+or <i>P<sub>n</sub></i>(<i>x</i>)<font face="Symbol">D</font><i>x</i>,
+is the probability that the electron will be found in some particular small
+segment of the line <font face="Symbol">D</font><i>x</i>. The constant
+factor of&nbsp;<img src="Image210.gif" height=26 width=41 align=ABSCENTER>
+which appears in every <font face="Symbol">y</font><i><sub><font face="Times New Roman,Times">n</font></sub></i>(<i>x</i>)
+is to assure that when the value of&nbsp;<font face="Symbol"> y</font><i><sub>n</sub></i><sup><font size=-2>2</font></sup>(<i>x</i>)<font face="Symbol">D</font><i>x</i>
+is summed over each of the small segments <font face="Symbol">D</font><i>x</i>,
+the final value will equal unity. This implies that the probability that
+the electron is somewhere on the line is unity, i.e., a certainty. Thus
+the probability that the electron is in any one of the small segments <font face="Symbol">D</font><i>x</i>
+(the value of&nbsp; <font face="Symbol">y</font><i><sub>n</sub></i><sup><font size=-2>2</font></sup>(<i>x</i>)<font face="Symbol">D</font><i>x
+</i>or
+<i>P<sub>n</sub></i>(<i>x</i>)<font face="Symbol">D</font><i>x</i>
+evaluated at a value of <i>x</i> between 0 and<i> L</i>) is a fraction
+of unity, i.e., a probability less than one. <font size=-1><a href="section2note2.html" onclick="return popup(this, 'notes')">(Click
+here for note.)</a></font>
+<p>&nbsp;&nbsp; Each <font face="Symbol">y</font><i><sub><font face="Times New Roman,Times">n&nbsp;</font></sub></i>
+must necessarily go to zero at each end of the line, since the probability
+of the electron not being on the line is zero. This is a physical condition
+which places a mathematical restraint on the <font face="Symbol">y</font><i><sub><font face="Times New Roman,Times">n</font></sub></i>
+. Thus the only acceptable <font face="Symbol">y</font><i><sub><font face="Times New Roman,Times">n</font></sub></i>
+'s are those which go to zero at each end of the line. A solution of the
+form shown in <font color="#000066"><a href="section_2.html#Fig_2-9.">Fig. 2-9</a></font>
+is, therefore, not an acceptable one. Since there is but a single value
+of the energy for each of the possible <font face="Symbol">y</font><i><sub><font face="Times New Roman,Times">n</font></sub></i>
+functions, it is clear that only certain discrete values of the energy
+will be allowed. The physical restraint of confining the motion to a finite
+length of line results in the quantization of the energy. Indeed, if the
+line is made infinitely long (the electron is then free and no longer bound),
+solutions for any value of <i>n</i>, integer or non-integer, are possible;
+correspondingly, all energies are permissible. Thus only the energies of
+bound systems are quantized.
+<p><a name="Fig_2-9."></a>
+<table border=0 width="100%">
+<tr>
+<td><img src="fig2-9.jpg" height=227 width=250></td>
+<td><font size=-1><b>Fig. 2-9.</b> An unacceptable form for <font face="Symbol">y</font><i><sub><font face="Times New Roman,Times">n</font></sub></i>(<i>x</i>).</font></td>
+</tr>
+</table>
+&nbsp;&nbsp; The <font face="Symbol">y</font><i><sub><font face="Times New Roman,Times">n</font></sub></i>
+'s have the appearance of a wave in that a given value of <font face="Symbol">y</font><i><sub><font face="Times New Roman,Times">n</font></sub></i>(<i>x</i>)
+is repeated as <i>x</i> is increased. They are periodic functions of <i>x</i>.
+We may, if we wish, refer to the wavelength of <font face="Symbol">y</font><i><sub><font face="Times New Roman,Times">n</font></sub></i>.
+The wavelength of&nbsp; <font face="Symbol">y<sub><font size=-2>1 </font></sub></font>is
+2<i>L</i> since only one half of a wave fits on the length <i>L</i>. The
+wavelength for <font face="Symbol">y<sub><font size=-2>2</font></sub></font>,
+is <i>L</i> since one complete wave fits in the length <i>L</i>. Similarly<font face="Symbol">
+l<sub><font size=-2>3</font></sub></font>, = (2/3)<i>L</i> and <font face="Symbol">l</font><sub><font size=-2>4</font></sub>
+= (2/4)<i>L</i>. In general:
+<br>&nbsp;
+<table cols=3 width="100%">
+<tr>
+<td width="7%">&nbsp;</td>
+<td>
+<center><img src="Image64.gif" height=25 width=82></center>
+</td>
+<td>
+<center><img src="Image21.gif" height=22 width=102></center>
+</td>
+</tr>
+</table>
+Because of the wave-like nature of the <font face="Symbol">y</font><i><sub><font face="Times New Roman,Times">n</font></sub></i>
+'s , the new physics is sometimes referred to as wave mechanics, and the
+<font face="Symbol">y</font><i><sub><font face="Times New Roman,Times">n</font></sub></i>&nbsp;
+functions are called wave functions. However, it must be stressed that
+a wave function itself has <b><i>no physical reality</i></b>. <b><i>All
+physical properties are determined by the product of the wave function
+with itself</i></b>. It is the <b><i>product </i></b><font face="Symbol">y</font><i><sub><font face="Times New Roman,Times">n</font></sub></i>(<i>x</i>)<font face="Symbol">y</font><i><sub><font face="Times New Roman,Times">n</font></sub></i>(<i>x</i>)
+which yields the physically measurable probability distribution. Thus <font face="Symbol">y</font><i><sub>n</sub></i><sup><font size=-2>2</font></sup>
+may be observed but not <font face="Symbol">y</font><i><sub>n</sub></i>
+itself.
+<p>&nbsp;&nbsp;&nbsp; A <font face="Symbol">y</font><i><sub>n</sub></i>
+does not represent the trajectory or path followed by an electron in space.
+We have seen that the most we can say about the position of an electron
+is given by the probability function <font face="Symbol">y</font><i><sub>n</sub></i><sup><font size=-2>2</font></sup>.
+We do, however, refer to the wavelengths of electrons, neutrons, etc. But
+we must remember that the wavelengths refer only to a property of the amplitude
+functions and not to the motion of the particle itself.
+<p>&nbsp;&nbsp;&nbsp; A number of interesting properties can be related
+to the idea of the wavelengths associated with the wave functions or probability
+amplitude functions. The wavelengths for our simple system are given by
+<font face="Symbol">l</font>
+= 2<i>L</i>/<i>n</i>. Can we identify these wavelengths with the wavelengths
+which de Broglie postulated for matter waves and which obeyed the relationship:
+<br>&nbsp;
+<table width="100%">
+<tr>
+<td width="7%"></td>
+<td>
+<center><img src="Image332.gif" height=25 width=82></center>
+</td>
+</tr>
+</table>
+The absolute value for the momentum (the magnitude of the momentum independent
+of its direction) of an electron on the line is <i>nh</i>/2<i>L</i>. Substituting
+this into de Broglie's relationship gives:
+<br>&nbsp;
+<table width="100%">
+<tr>
+<td width="7%"></td>
+<td>
+<center><img src="Image66.gif" height=50 width=193></center>
+</td>
+</tr>
+</table>
+So indeed the wavelengths postulated by de Broglie to be associated with
+the motions of particles are in reality the wavelengths of the probability
+amplitudes or wave functions. There is no need to postulate "matter waves"
+and the results of the electron diffraction experiment of Davisson and
+Germer for example can be interpreted entirely in terms of probabilities
+rather than in terms of "matter waves" with a wavelength&nbsp;<font face="Symbol">
+l</font> = <i>h</i>/<i>p</i>.
+<p>&nbsp;&nbsp; It is clear that as <i>n</i> increases,<font face="Symbol">
+l </font>becomes much less than <i>L</i>. For <i>n</i> =&nbsp; 100, <font face="Symbol">y</font><sub><font size=-2>100</font></sub>and
+<i>P</i><sub><font size=-2>100
+</font></sub>would
+appear as in <font color="#000066"><a href="section_2.html#Fig_2-10.">Fig. 2-10</a></font>.
+When<i> L</i>>><font face="Symbol">l</font><sub>n</sub>, the nodes in <i>P</i><sub>n</sub>
+are so close together that the function appears to be a continuous function
+of <i>x</i>. No experiment could in fact detect nodes which are so closely
+spaced, and any observation of the position of the electron would yield
+a result for <i>P</i><sub><font size=-2>100
+</font></sub>similar to that
+obtained in the classical case. This is a general result. When
+<font face="Symbol">l
+</font>is
+smaller than the important physical dimensions of the system, quantum effects
+disappear and the system behaves in a classical fashion. This will always
+be true when the system possesses a large amount of energy, i.e, a high
+<i>n</i>
+value. When, however,<font face="Symbol"> l</font> is comparable to the
+physical dimensions of the system, quantum effects predominate.
+<p><a name="Fig_2-10."></a>
+<center><img src="fig2-10a.jpg" height=418 width=319><img src="fig2-10b.jpg" height=352 width=355>
+<br><font size=-1><b>Fig. 2-10.</b> The wave function and probability distribution
+for n = 100.</font></center>
+<p>&nbsp;&nbsp;&nbsp; Let us check to see whether or not quantum effects
+will be evident for electrons bound to nuclei to form atoms. A typical
+velocity of an electron bound to an atom is of the order of magnitude of
+10<sup><font size=-2>9</font></sup> cm/sec. Thus:
+<br>&nbsp;
+<table width="100%">
+<tr>
+<td width="7%"></td>
+<td>
+<center><img src="Image67.gif" height=53 width=262></center>
+</td>
+</tr>
+</table>
+This is a short wavelength, but it is of the same order of magnitude as
+an atomic diameter. Electrons bound to atoms will definitely exhibit quantum
+effects because the wavelength which determines their probability amplitude
+is of the same size as the important physical dimension<font face="LotusWP Type">C</font>the
+diameter of the atom.
+<p>&nbsp;&nbsp; We can also determine the wavelength associated with the
+motion of the mass of 1 g moving on a line 1 m in length with a velocity
+of, say, 1 cm/sec:
+<br>&nbsp;
+<table width="100%">
+<tr>
+<td width="7%"></td>
+<td>
+<center><img src="Image68.gif" height=50 width=244></center>
+</td>
+</tr>
+</table>
+This is an incredibly short wavelength, not only relative to the length
+of the line but absolutely as well. No experiment could detect the physical
+implications of such a short wavelength. It is indeed many, many times
+smaller than the diameter of the mass itself. For example, to observe a
+diffraction effect for such particles the spacings in the grating must
+be of the order of magnitude of 1 <font face="Symbol">&acute;</font> 10<sup><font size=-2>-27</font></sup>
+cm. Such a grating cannot be made from ordinary matter since atoms themselves
+are about 10<sup><font size=-2>19 </font></sup>times larger than this.
+Even if such a grating could be found, it certainly wouldn't affect the
+motion of a mass of 1 g as the size of the mass is approximately 10<sup><font size=-2>28</font></sup>
+times larger than the spacings in the grating! Clearly, quantum effects
+will not be observed for massive particles. It is also clear that the factor
+which determines when quantum effects will be observed and when they will
+be absent is the magnitude of Planck's constant <i>h</i>. The very small
+magnitude of <i>h</i> restricts the observation of quantum effects to the
+realm of small masses.
+<center>
+<hr width="100%"></center>
+<center><table cols=4>
+<tr>
+<td>
+<center><a href="../intro.html"><img src="home.jpg" border=0 height=54 width=109></a></center>
+</td>
+<td><a href="section_1-4.html"><img src="prev.jpg" border="0" height=73 width=148></a></td>
+<td>
+<center><a href="further_reading.html"><img src="next.jpg" border="0" height=73 width=148></a></center>
+</td>
+<td>
+<center><a href="section_2.html#Top"><img src="top.jpg" border=0 height=54 width=109></a></center>
+</td>
+</tr>
+</table></center>
+</body>
+</html>

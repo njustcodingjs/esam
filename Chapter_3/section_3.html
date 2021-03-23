@@ -1,0 +1,803 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="Author" content="McMaster University-Chemistry">
+<meta name="GENERATOR" content="Mozilla/4.77 [en] (Win98; U) [Netscape]">
+<title>The Hydrogen Atom - Angular Momentum of an Electron in an H Atom</title>
+</head>
+<body>
+&nbsp;
+<table cols=1 width="100%">
+<tr>
+<td bgcolor="#FFFFCC">
+<center>
+<h1>
+<a name="Top"></a>An Introduction to the Electronic Structure of Atoms
+and Molecules</h1></center>
+<center>Dr. Richard F.W. Bader&nbsp;
+<br><i><font size=-1>Professor of Chemistry / McMaster University / Hamilton,
+Ontario</font></i></center>
+<p><script type="text/javascript">function popup(mylink,windowname){if(!window.focus)return true;var href;if(typeof(mylink)=='string')href=mylink;else
+href=mylink.href;window.open(href,windowname,'width=860,height=200,scrollbars=yes');return false;}</script>
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td rowspan="16" width="300"><img src="ch3pic.jpg" height=257 width=298></td>
+<td width="20"></td>
+<td colspan="2" width="540"><b><font color="#000099"><font size=+1><a href="../intro.html">Preface</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#3333FF"><font size=+1><a href="../Chapter_1/intro.html">1.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#3333FF"><font size=+1><a href="../Chapter_1/intro.html">The
+Nature of the Problem</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#000099"><font size=+1><a href="../Chapter_2/intro.html">2.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../Chapter_2/intro.html">The
+New Physics</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#CC0000"><font size=+1>3.</font></font></b></td>
+<td colspan="2"><b><font color="#CC0000"><font size=+1>The Hydrogen Atom</font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •</td>
+<td><b><font color="#3333FF"><font size=+1><a href="intro.html">Introduction</a></font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •</td>
+<td><b><font color="#3333FF"><font size=+1><a href="section_1.html">The
+Quantization of Energy</a></font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •</td>
+<td><b><font color="#3333FF"><font size=+1><a href="section_2.html">The
+Probability Distribution of the Hydrogen Atom</a></font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •</td>
+<td><b><font color="#CC0000"><font size=+1>Angular Momentum of an Electron
+in an H Atom</font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •</td>
+<td><b><font color="#3333FF"><font size=+1><a href="section_4.html">Some
+Useful Expressions</a></font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •&nbsp;</td>
+<td><b><font color="#3333FF"><font size=+1><a href="problems.html">Problems</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#000099"><font size=+1><a href="../Chapter_4/intro.html">4.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../Chapter_4/intro.html">Many-Electron
+Atoms</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#000099"><font size=+1><a href="../Chapter_5/intro.html">5.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../Chapter_5/intro.html">Electronic
+Basis for the Properties of the Elements</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#000099"><font size=+1><a href="../Chapter_6/intro.html">6.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../Chapter_6/intro.html">The
+Chemical Bond</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#000099"><font size=+1><a href="../Chapter_7/intro.html">7.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../Chapter_7/intro.html">Ionic
+and Covalent Binding</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#000099"><font size=+1><a href="../Chapter_8/intro.html">8.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../Chapter_8/intro.html">Molecular
+Orbitals</a></font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../contour_values.html">Table
+of Contour Values</a></font></font></b></td>
+</tr>
+</table>
+&nbsp;</td>
+</tr>
+</table>
+<hr width="100%">
+<br><b><font size=+1>Angular Momentum of an Electron in an H Atom</font></b>
+<p>The simplest classical model of the hydrogen atom is one in which the
+electron moves in a circular planar orbit about the nucleus as previously
+discussed and as illustrated in <a href="ref-fig3-7.html">Fig. 3-7</a>.
+The angular momentum vector <b>M </b>in this figure is shown at an angle
+<font face="Symbol">q</font> with respect to some arbitrary axis in space.
+Assuming for the moment that we can somehow physically define such an axis,
+then in the classical model of the atom there should be an infinite number
+of values possible for the component of the angular momentum vector along
+this axis. As the angle between the axis and the vector <b>M</b> varies
+continuously from 0&deg;, through 90&deg; to 180&deg;, the component of
+<b>M </b>along the axis would vary correspondingly from <b>M</b> to zero
+to -<b>M</b>. Thus the quantum mechanical statements regarding the angular
+momentum of an electron in an atom differ from the classical predictions
+in two startling ways. First, the magnitude of the angular momentum (the
+length of the vector <b>M</b>) is restricted to only certain values given
+by:
+<br>&nbsp;
+<table width="100%">
+<tr>
+<td width="7%">
+<center>&nbsp;</center>
+</td>
+<td>
+<center><img src="Image100.gif" height=48 width=108></center>
+</td>
+<td>
+<center><img src="Image91.gif" height=22 width=89></center>
+</td>
+</tr>
+</table>
+<p>The magnitude of the angular momentum is quantized. Secondly, quantum
+mechanics states that the component of <b>M</b> along a given axis can
+assume only (2<i>l</i> + 1) values, rather than the infinite number allowed
+in the classical model. In terms of the classical model this would imply
+that when the magnitude of <b>M</b> is&nbsp;<img src="Image92.gif" height=25 width=77 align=ABSCENTER>
+(the value when <i>l </i>= 1), there are only three allowed values for
+<font face="Symbol">q</font>,
+the angle of inclination of <b>M</b> with respect to a chosen axis.
+<p>&nbsp;&nbsp; The angle <font face="Symbol">q</font> is another example
+of a physical quantity which in a classical system may assume any value,
+but which in a quantum system may take on only certain discrete values.
+You need not accept this result on faith. There is a simple, elegant experiment
+which illustrates the "quantization" of <font face="Symbol">q</font>, just
+as a line spectrum illustrates the quantization of the energy.
+<p>&nbsp;&nbsp; If we wish to measure the number of possible values which
+the component of the angular momentum may exhibit with respect to some
+axis we must first find some way in which we can physically define a direction
+or axis in space. To do this we make use of the magnetism exhibited by
+an electron in an atom. The flow of electrons through a loop of wire (an
+electric current) produces a magnetic field <font color="#000000"><a href="section_3.html#Fig_3-11.">(Fig.
+3-11)</a></font>. At a distance from the ring of wire, large compared to
+the diameter of the ring, the magnetic field produced by&nbsp; the current
+appears to be the same as that obtained from a small bar magnet with a
+north pole and a south pole. Such a small magnet is called a magnetic dipole,
+i.e., two poles separated by a small distance.
+<p><a name="Fig_3-11."></a>
+<center><img src="fig3-11.jpg" height=344 width=299>
+<br><font size=-1><b>Fig. 3-11.</b> The magnetic field produced by a current
+in a loop of wire.</font></center>
+<p>&nbsp;&nbsp;&nbsp; The electron is charged and the motion of the electron
+in an atom could be thought of as generating a small electric current.
+Associated with this current there should be a small magnetic field. The
+magnitude of this magnetic field is related to the angular momentum of
+the electron's motion in roughly the same way that the magnetic field produced
+by a current in a loop of wire is proportional to the strength of the current
+flowing in the wire.
+<p>&nbsp;&nbsp;&nbsp; The strength of the atomic magnetic dipole is given
+by <font face="Symbol">m</font> where:
+<br>&nbsp;
+<table width="100%">
+<tr>
+<td width="7%"><b><font color="#3333FF">(5)</font></b></td>
+<td>
+<center><img src="Image93.gif" height=30 width=125></center>
+</td>
+</tr>
+</table>
+<p>Just as there is a fundamental unit of negative charge denoted by
+<i>e</i><sup>-</sup>&nbsp;
+so there is a fundamental unit of magnetism at the atomic level denoted
+by <font face="Symbol">b</font><i><sub>m</sub></i> and called the Bohr
+magneton. From equation <b><font color="#3333FF">(5)</font></b> we can
+see that the strength of the magnetic dipole will increase as the angular
+momentum of the electron increases. This is analogous to increasing the
+magnetic field by increasing the strength of the current through a circular
+loop of wire The magnetic dipole, since it has a north and a south pole,
+will define some direction in space (the magnetic dipole is a vector quantity).
+The axis of the magnetic dipole in fact coincides with the direction of
+the angular momentum vector. Experimentally, a collection of atoms behave
+as though they were a collection of small bar magnets if the electrons
+in these atoms&nbsp; possess angular momentum. In addition, the axis of
+the magnet lies along the axis of rotation, i.e., along the angular momentum
+vector. Thus <b><i>the magnetism exhibited by the atoms provides an experimental
+means by which we may study the direction of the angular momentum vector.</i></b>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; If we place the atoms in a magnetic field they
+will be attracted or repelled by this field, depending on whether or not
+the atomic magnets are aligned against or with the applied field. The applied
+magnetic field <b><i>will determine a direction in space</i></b>. By measuring
+the deflection of the atoms in this field we can determine the directions
+of their magnetic moments and hence of&nbsp; their angular momentum vectors
+with respect to this applied field. Consider&nbsp; an evacuated tube with
+a tiny opening at one end through which a stream of atoms may enter <a href="section_3.html#Fig_3-12.">(Fig.
+3-12)</a>. By placing a second small hole in front of the first, inside
+the tube, we will obtain a narrow beam of atoms which will pass the length
+of the tube and strike the opposite end. If the atoms possess magnetic
+moments the path of the beam can be deflected by placing a magnetic field
+across the tube, perpendicular to the path of the atoms. The magnetic field
+must be one in which the lines of force diverge thereby exerting an unbalanced
+force on any magnetic material lying inside the field. This inhomogeneous
+magnetic field could be obtained through the use of N and S poles of the
+kind illustrated in <a href="section_3.html#Fig_3-12.">Fig. 3-12</a>. The direction of
+the magnetic field will be taken as the direction of the<i> z</i>-axis.
+<p><a name="Fig_3-12."></a>
+<center><img src="fig3-12.jpg" height=172 width=559>
+<br><font size=-1><b>Fig. 3-12.</b> The atomic beam apparatus.</font></center>
+<p>&nbsp;&nbsp;&nbsp; Let us suppose the beam consists of neutral atoms
+which possess&nbsp;<img src="Image92.gif" height=25 width=77 align=ABSCENTER>
+units of electronic angular momentum (the angular momentum quantum number<i>
+l </i>= 1). When no magnetic field is present, the beam of atoms strikes
+the end wall at a single <b><i>point</i></b> in the middle of the detector.
+What happens when the magnetic field is present? We must assume that before
+the beam enters the magnetic field, the axes of the atomic magnets are
+randomly oriented with respect to the <i>z</i>-axis. According to the concepts
+of classical mechanics, the beam should spread out along the direction
+of the magnetic field and produce a line rather than a point at the end
+of the tube <a href="section_3.html#Fig_3-13.">(Fig. 3-13a)</a>. Actually, the beam is
+split into three distinct component beams each of equal intensity producing
+three spots at the end of the tube <a href="section_3.html#Fig_3-13.">(Fig. 3-13b)</a>.
+<p><a name="Fig_3-13."></a>
+<center><img src="fig3-13.jpg" height=366 width=400>
+<br><font size=-1><b>Fig.&nbsp; 3-13.</b>&nbsp; (a) The result of the atomic
+beam experiment as predicted by classical mechanics,</font>
+<br><font size=-1>(b) The observed result of the atomic beam experiment.</font></center>
+<p>&nbsp;&nbsp; The startling results of this experiment can be explained
+only if we assume that while in the magnetic field each atomic magnet could
+assume only one of three possible orientations with respect to the applied
+magnetic field <font color="#3333FF"><a href="section_3.html#Fig_3-14.">(Fig. 3-14)</a></font>.
+<p><a name="Fig_3-14."></a>
+<center><img src="fig3-14.jpg" height=485 width=359>
+<br><font size=-1><b><font color="#000000">Fig. 3-14</font></b>.&nbsp;
+The three possible orientations for the total magnetic moment with respect
+to an external magnetic field for an atom with <i>l</i> =1.</font></center>
+<p>The atomic magnets which are aligned perpendicular to the direction
+of the field are not deflected and will follow a straight path through
+the tube. The atoms which are attracted upwards must have their magnetic
+moments oriented as shown. From the known strength of the applied inhomogeneous
+magnetic field and the measured distance through which the beam has been
+deflected upwards, we can determine that the component of the magnetic
+moment lying along the <i>z</i>-axis is only <font face="Symbol">b</font><i><sub><font size=-2>m</font></sub></i>
+in magnitude rather than the value of&nbsp;<img src="Image95.gif" height=26 width=42 align=ABSCENTER>
+This latter value would result if the axis of the atomic magnet was parallel
+to the z-axis, i.e., the angle <font face="Symbol">q</font> = 0&deg;. Instead
+<font face="Symbol">q</font>
+assumes a value such that the component of the total moment&nbsp;<img src="Image158.gif" height=26 width=86 align=ABSBOTTOM>lying
+along the z-axis is just <i>l</i><font face="Symbol">b</font><i><sub><font size=-1>m</font></sub></i>.
+Similarly the beam which is deflected downwards possesses a magnetic moment
+along the z-axis of -<font face="Symbol">b</font><i><sub><font size=-1>m</font></sub></i>
+or -<i>l</i><font face="Symbol">b</font><font size=-1><i><sub>m</sub></i>.</font>
+The classical prediction for this experiment assumes that <font face="Symbol">q</font>
+may equal all values from 0&deg; to 180&deg;, and thus all values (from
+a maximum of&nbsp;<img src="Image97.gif" height=26 width=52 align=ABSCENTER>
+(<font face="Symbol">q</font> = 0&deg;) to 0 (<font face="Symbol">q</font>
+=90&deg;) to&nbsp;<img src="Image97.gif" height=26 width=52 align=ABSCENTER>
+(<font face="Symbol">q</font> = 180&deg;)) for the component of the atomic
+moment along the z-axis would be possible. Instead, <font face="Symbol">q</font>
+is found to equal only those values such that the magnetic moment along
+the z-axis equals +<font face="Symbol">b</font><i><sub><font size=-1>m</font></sub></i>,
+0 and -<font face="Symbol">b</font><i><sub><font size=-1>m</font></sub></i>.
+<p>&nbsp;&nbsp;&nbsp; The angular momentum of the electron determines the
+magnitude and the direction of the magnetic dipole. (Recall that the vectors
+for both these quantities lie along the same axis.) Thus the number of
+possible values which the component of the angular momentum vector may
+assume along a given axis must equal the number of values observed for
+the component of the magnetic dipole along the same axis. In the present
+example the values of the angular momentum component are +1(<i>h</i>/2<font face="Symbol">p</font>),
+0 and -1(<i>h</i>/2<font face="Symbol">p</font>), or since <i>l</i> = 1
+in this case, + <i>l</i>(<i>h</i>/2<font face="Symbol">p</font>), 0 and
+-<i>l</i>(<i>h</i>/2<font face="Symbol">p</font>). In general, it is found
+that the number of observed values is always (2<i>l</i> + 1) the values
+being:
+<br>&nbsp;
+<table width="100%">
+<tr>
+<td width="7%"></td>
+<td>
+<center><img src="Image98.gif" height=52 width=293></center>
+</td>
+</tr>
+</table>
+<p>for the angular momentum and:
+<br>&nbsp;
+<table width="100%">
+<tr>
+<td width="7%"></td>
+<td>
+<center><img src="Image99.gif" height=30 width=246></center>
+</td>
+</tr>
+</table>
+<p>for the magnetic dipole. The number governing the magnitude of the component
+of<b> M</b> and&nbsp;<img src="Image159.gif" height=25 width=16 align=ABSCENTER>,
+ranges from a maximum value of <i>l</i> and decreases in steps of unity
+to a minimum value of -<i>l</i>. This number is the third and final quantum
+number which determines the motion of an electron in a hydrogen atom. It
+is given the symbol <i>m</i> and is called the magnetic quantum number.
+<p>&nbsp;&nbsp; In summary, the angular momentum of an electron in the
+hydrogen atom is quantized and may assume only those values given by:
+<br>&nbsp;
+<center><table cols=3 width="100%">
+<tr>
+<td width="7%">&nbsp;</td>
+<td>
+<center><img src="Image100.gif" height=48 width=108></center>
+</td>
+<td>
+<center><img src="Image101.gif" height=22 width=134></center>
+</td>
+</tr>
+</table></center>
+<p>Furthermore, it is an experimental fact that the component of the angular
+momentum vector along a given axis is limited to (2<i>1</i> + 1) different
+values, and that the magnitude of this component is quantized and governed
+by the quantum number <i>m</i> which may assume the values <i>l</i>, <i>l</i>-1,
+. . .,0, . . .,-<i>l</i>. These facts are illustrated in <font color="#CC0000"><a href="section_3.html#Fig_3-15.">Fig.
+3-15</a></font> for an electron in a <i>d</i> orbital in which <i>l </i>=
+2.
+<p><a name="Fig_3-15."></a>
+<center><img src="Image233.gif" height=30 width=138>
+<br><img src="fig3-15a.jpg" height=377 width=215>
+<br>(a)<img src="fig3-15b.jpg" height=383 width=409>
+<br><img src="fig3-15c.jpg" height=309 width=501>(b)</center>
+<p><font size=-1><b>Fig. 3-15.</b> Pictorial representation of the quantum
+mechanical properties of the angular momentum of a <i>d </i>electron for
+which<i> l</i> = 2. The <i>z</i>-axis can be along any arbitrary direction
+in space. Figure (a) shows the possible components which the angular momentum
+vector (of length&nbsp;<img src="Image278.gif" height=26 width=104 align=ABSCENTER>)
+may exhibit along an arbitrary axis in space. A <i>d </i>electron may possess
+any one of these components. There are therefore five states for a <i>d
+</i>electron,
+all of which are physically different. Notice that the maximum magnitude
+allowed for the component is less then the magnitude of the total angular
+momentum. Therefore, the angular momentum vector can never coincide with
+the axis with respect to which the observations are made. Thus the
+<i>x</i>
+and <i>y </i>components of the angular momentum are not zero. This is illustrated
+in Fig. (b) which shows how the angular momentum vector may be oriented
+with respect to the <i>z</i>-axis for the case <i>m</i> = <i>l </i>= 2.
+When the atom is in a magnetic field, the field exerts a torque on the
+magnetic dipole of the atom. This torque causes the magnetic dipole and
+hence the angular momentum vector to precess or rotate about the direction
+of the magnetic field. This effect is analogous to the precession of a
+child's top which is spinning with its axis (and hence its angular momentum
+vector) at an angle to the earth's gravitational field. In this case the
+gravitational field exerts the torque and the axis of the top slowly revolves
+around the perpendicular direction as indicated in the figure. The angle
+of inclination of <b>M </b>with respect to the field direction remains
+constant during the precession. The <i>z</i>-component of <b>M</b> is therefore
+constant but the <i>x</i> and <i>y</i> components are continuously changing.
+Because of the precession, only one component of the electronic angular
+momentum of an atom an be determined in a given experiment.</font>
+<p>&nbsp;&nbsp; The quantum number <i>m</i> determines the magnitude of
+the component of the angular momentum along a given axis in space. Therefore,
+it is not surprising that this same quantum number determines the axis
+along which the electron density is concentrated. When <i>m</i> = 0 for
+a <i>p</i> electron (regardless of the <i>n</i> value, 2<i>p</i>, 3<i>p</i>,
+4<i>p</i>, etc.) the electron density distribution is concentrated along
+the <i>z</i>-axis (see <font color="#000000"><a href="ref-fig3-10.html">Fig.
+3-10</a></font>) implying that the classical axis of rotation must lie
+in the <i>x-y</i> plane. Thus a <i>p</i> electron with <i>m </i>= 0 is
+most likely to be found along one axis and has a zero probability of being
+on&nbsp; the remaining two axes. The effect of the angular momentum possessed
+by&nbsp; the electron is to concentrate density along one axis. When <i>m</i>
+= 1 or -1 the density distribution of a <i>p </i>electron is concentrated
+in the <i>x-y </i>plane with doughnut-shaped circular contours. The <i>m</i>
+= 1 and -1 density distributions are identical in appearance.&nbsp; Classically
+they differ only in the direction of rotation of the electron around the
+z-axis; counter-clockwise for <i>m</i> = +1 and clockwise for <i>m </i>=
+-1. This explains why they have magnetic moments with their north poles
+in opposite directions.
+<p>&nbsp;&nbsp; We can obtain density diagrams for the <i>m</i> = +1 and
+-1 cases similar to the <i>m</i> = 0 case by removing the resultant angular
+momentum component along the <i>z</i>-axis. We can take combinations of
+the <i>m</i> = +1 and -1 functions such that one combination is concentrated
+along the <i>x</i>-axis and the other along the <i>y-</i>axis, and both
+are identical to the <i>m</i> = 0 function in their appearance. Thus these
+functions are often labelled as <i>p<sub>x</sub></i>, <i>p<sub>y</sub></i>
+and <i>p<sub>z</sub></i>&nbsp; functions rather than by their <i>m</i>
+values. The <i>m</i> value is, however, the true quantum number and we
+are cheating physically by labelling them <i>p<sub>x</sub></i>, <i>p<sub>y</sub></i>
+and <i>p<sub>z</sub></i> .&nbsp; This would correspond to applying the
+field first in the <i>z</i> direction, then in the <i>x</i> direction and
+finally in the<i> y</i> direction and trying to save up the information
+each time. In reality when the direction of the field is changed, all the
+information regarding the previous direction is lost and every atom will
+again align itself with one chance out of three of being in one of the
+possible component states with respect to the new direction.
+<p>&nbsp;&nbsp;&nbsp;&nbsp; We should note that the <i>r</i> dependence
+of the orbitals changes with changes in <i>n</i> or<i> l</i>, but the directional
+component changes with <i>l </i>and <i>m</i> only. Thus all<i> s</i> orbitals
+possess spherical charge distributions and all <i>p</i> orbitals possess
+dumb-bell shaped charge distributions regardless of the value of <i>n</i>.
+<p><a name="Table_3-1."></a>
+<hr size=1 noshade width="100%">
+<center>Table 3-1.
+<br>The Atomic Orbitals for the Hydrogen Atom</center>
+<center><table border=0 cellspacing=0 cellpadding=0 width="616">
+<tr>
+<td valign=TOP width="10%">
+<center>E<sub>n</sub></center>
+</td>
+<td>n</td>
+<td valign=TOP width="8%"><i>l</i></td>
+<td valign=TOP width="9%">
+<div align=right>m</div>
+</td>
+<td valign=TOP width="6%">&nbsp;</td>
+<td>Symbol for orbital</td>
+<td height="100%"></td>
+</tr>
+<tr>
+<td valign=TOP width="10%">
+<center>-K</center>
+</td>
+<td valign=TOP>1</td>
+<td valign=TOP width="8%">0</td>
+<td valign=TOP width="9%">
+<div align=right>0</div>
+</td>
+<td valign=TOP width="6%">&nbsp;</td>
+<td valign=TOP width="40%">1s</td>
+<td valign=TOP>&nbsp;</td>
+</tr>
+<tr>
+<td rowspan="4" width="10%" height="10">
+<center><img src="Image1.gif" height=41 width=41></center>
+</td>
+<td>2</td>
+<td valign=TOP width="8%" height="10">0</td>
+<td valign=TOP width="9%" height="10">
+<div align=right>0</div>
+</td>
+<td valign=TOP width="6%" height="10">&nbsp;</td>
+<td>2s</td>
+<td valign=TOP height="10"></td>
+</tr>
+<tr>
+<td valign=TOP height="10">2</td>
+<td>1</td>
+<td valign=TOP width="9%" height="10">
+<div align=right>1</div>
+</td>
+<td valign=TOP width="6%" height="10">&nbsp;</td>
+<td valign=TOP height="10">2p<sub>+1</sub></td>
+<td><sub><font face="Symbol"><font size=+1>&ouml;</font></font></sub></td>
+</tr>
+<tr>
+<td valign=TOP height="10">2</td>
+<td>1</td>
+<td valign=TOP width="9%" height="10">
+<div align=right>0</div>
+</td>
+<td valign=TOP width="6%" height="10">&nbsp;</td>
+<td valign=TOP height="10">2p<sub>0</sub></td>
+<td><sub><font face="Symbol"><font size=+2>&yacute;</font></font></sub>p<sub>x</sub>,
+p<sub>y</sub>, p<sub>z</sub></td>
+</tr>
+<tr>
+<td valign=TOP height="10">2</td>
+<td valign=TOP>1</td>
+<td valign=TOP width="9%" height="10">
+<div align=right>-1</div>
+</td>
+<td valign=TOP width="6%" height="10">&nbsp;</td>
+<td valign=TOP height="10">2p<sub>-1</sub></td>
+<td><font face="Symbol"><font size=+1>&thorn;</font></font></td>
+</tr>
+<tr>
+<td rowspan="9" width="10%" height="4">
+<center><img src="Image2.gif" height=41 width=40></center>
+</td>
+<td>3</td>
+<td valign=TOP width="8%" height="4">0</td>
+<td valign=TOP width="9%" height="4">
+<div align=right>0</div>
+</td>
+<td valign=TOP width="6%" height="4">&nbsp;</td>
+<td>3s</td>
+<td valign=TOP height="4">&nbsp;</td>
+</tr>
+<tr>
+<td valign=TOP height="4">3</td>
+<td>1</td>
+<td valign=TOP width="9%" height="4">
+<div align=right>1</div>
+</td>
+<td valign=TOP width="6%" height="4">&nbsp;</td>
+<td valign=TOP height="4">3p<sub>+1</sub></td>
+<td><sub><font face="Symbol"><font size=+1>&ouml;</font></font></sub></td>
+</tr>
+<tr>
+<td valign=TOP height="4">3</td>
+<td>1</td>
+<td valign=TOP width="9%" height="4">
+<div align=right>0</div>
+</td>
+<td valign=TOP width="6%" height="4">&nbsp;</td>
+<td valign=TOP height="4">3p<sub>0</sub></td>
+<td><sub><font face="Symbol"><font size=+2>&yacute;</font></font></sub>p<sub>x</sub>,
+p<sub>y</sub>, p<sub>z</sub></td>
+</tr>
+<tr>
+<td valign=TOP height="4">3</td>
+<td>1</td>
+<td valign=TOP width="9%" height="4">
+<div align=right>-1</div>
+</td>
+<td valign=TOP width="6%" height="4">&nbsp;</td>
+<td valign=TOP height="4">3p<sub>-1</sub></td>
+<td><font face="Symbol"><font size=+1>&thorn;</font></font></td>
+</tr>
+<tr>
+<td valign=TOP height="4">3</td>
+<td>2</td>
+<td valign=TOP width="9%" height="4">
+<div align=right>2</div>
+</td>
+<td valign=TOP width="6%" height="4">&nbsp;</td>
+<td valign=TOP height="4">3d<sub>+2</sub></td>
+<td valign=BASELINE><sub><font face="Symbol"><font size=+1>&ouml;</font></font></sub></td>
+</tr>
+<tr>
+<td valign=TOP height="4">3</td>
+<td>2</td>
+<td valign=TOP width="9%" height="4">
+<div align=right>1</div>
+</td>
+<td valign=TOP width="6%" height="4">&nbsp;</td>
+<td valign=TOP height="4">3d<sub>+1</sub></td>
+<td valign=CENTER><b><font size=-1>&nbsp;</font><font size=+2>|</font></b></td>
+</tr>
+<tr>
+<td valign=TOP height="4">3</td>
+<td>2</td>
+<td valign=TOP width="9%" height="4">
+<div align=right>0</div>
+</td>
+<td valign=TOP width="6%" height="4">&nbsp;</td>
+<td valign=TOP height="4">3d<sub>0</sub></td>
+<td valign=CENTER><font face="Symbol"><font size=+2>&yacute;</font></font><img src="Image3.gif" height=30 width=168 align=ABSCENTER></td>
+</tr>
+<tr>
+<td valign=TOP height="4">3</td>
+<td>2</td>
+<td valign=TOP width="9%" height="4">
+<div align=right>-1</div>
+</td>
+<td valign=TOP width="6%" height="4">&nbsp;</td>
+<td valign=TOP height="4">3d<sub>-1</sub></td>
+<td valign=CENTER><b><font size=-1>&nbsp;</font><font size=+2>|</font></b></td>
+</tr>
+<tr>
+<td valign=TOP height="4">3</td>
+<td>2</td>
+<td valign=TOP width="9%" height="4">
+<div align=right>-2</div>
+</td>
+<td valign=TOP width="6%" height="4">&nbsp;</td>
+<td valign=TOP height="4">3d<sub>-2</sub></td>
+<td valign=TOP><font face="Symbol"><font size=+1>&thorn;</font></font></td>
+</tr>
+</table></center>
+<hr size=1 noshade width="100%">
+<p><font color="#000000"><a href="section_3.html#Table_3-1.">Table 3-1</a></font><font color="#CC0000">
+</font>summarizes the allowed combinations of quantum numbers for an electron
+in a hydrogen atom for the first few values of <i>n</i>; the corresponding
+name (symbol) is given for each orbital. Notice that there are <i>n</i><sup><font size=-2>2</font></sup>
+orbitals for each value of <i>n</i>, all of which belong to the same quantum
+level and have the same energy. There are <i>n </i>- 1 values of <i>l</i>
+for each value of <i>n</i> and there are (2<i>l </i>+ 1) values of <i>m</i>
+for each value of <i>l</i>. Notice also that for every increase in the
+value of <i>n</i>, orbitals of the same<i> l</i> value (same directional
+dependence) as found for the preceding value of <i>n</i> are repeated.
+In addition, a new value of <i>l </i>and a new shape are introduced. Thus
+there is a repetition in the shapes of the density distributions along
+with an increase in their number. We can see evidence of a periodicity
+in these functions (a periodic re-occurrence of a given density distribution)
+which we might hope to relate to the periodicity observed in the chemical
+and physical properties of the elements. We might store this idea in the
+back of our minds until later.
+<p>&nbsp;&nbsp;&nbsp; We can summarize what we have found so far regarding
+the energy and distribution of an electron in a hydrogen atom thus:
+<table width="100%">
+<tr>
+<td>(i)</td>
+<td>The energy increases as<i> n</i> increases, and depends only on<i>
+n</i>, the principal quantum number.</td>
+</tr>
+<tr>
+<td>(ii)</td>
+<td>The average value of the distance between the electron and the nucleus
+increases as <i>n</i> increases.</td>
+</tr>
+<tr>
+<td>(iii)</td>
+<td>The number of nodes in the probability distribution increases as <i>n</i>
+increases.</td>
+</tr>
+<tr>
+<td>(iv)</td>
+<td>The electron density becomes concentrated along certain lines (or in
+planes) as <i>l </i>is increased.</td>
+</tr>
+</table>
+&nbsp;&nbsp;&nbsp; Some words of caution about energies and angular momentum
+should be added. In passing from the domain of classical mechanics to that
+of quantum mechanics we retain as many of the familiar words as possible.
+Examples are kinetic and potential energies, momentum, and angular momentum.
+We must, however, be on guard when we use these familiar concepts in the
+atomic domain. All have an altered meaning. Let us make this clear by considering
+these concepts for the hydrogen atom.
+<p>&nbsp;&nbsp; Perhaps the most surprising point about the quantum mechanical
+expression for the energy is that it does not involve<i> r</i>, the distance
+between the nucleus and the electron. If the system were a classical one,
+then we would expect to be able to write the total energy <i>E<sub>n</sub></i>
+as:
+<br>&nbsp;
+<center><table width="100%">
+<tr>
+<td><b><font color="#3333FF">(6)</font></b></td>
+<td>
+<center><img src="Image221.gif" height=50 width=222></center>
+</td>
+</tr>
+</table></center>
+<p>Both the<i> KE</i> and <i>PE </i>would be functions of <i>r</i>, i.e.,
+both would change in value as<i> r</i> was changed (corresponding to the
+motion of the electron). Furthermore, the sum of the <i>PE</i> and <i>KE</i>
+must always yield the same value of <i>E<sub>n</sub></i> which is to remain
+constant.
+<p><a name="Fig_3-16."></a>
+<center><img src="fig3-16.jpg" height=427 width=372>
+<br><font size=-1><b>Fig.3-16.</b> The potential energy diagram for an
+H atom with one of the allowed energy values superimposed on it.</font></center>
+<p>&nbsp;&nbsp;<font color="#CC0000"> <a href="section_3.html#Fig_3-16.">Fig 3-16</a></font>
+is the potential energy diagram for the hydrogen atom and we have superimposed
+on it one of the possible energy levels for the atom,&nbsp; <i>E<sub>n</sub></i>.&nbsp;
+Consider a classical value for <i>r</i> at the point <i>A</i>". Classically,
+when the electron is at the point <i>A</i>", its <i>PE</i> is given by
+the value of the <i>PE</i> curve at <i>A</i>'.&nbsp; The <i>KE</i> is thus
+equal to the length of the line <i>A - A</i>' in energy units. Thus the
+sum of <i>PE</i> + <i>KE</i> adds up to <i>E<sub>n</sub></i>.
+<p>&nbsp;&nbsp;&nbsp; When the electron is at the point <i>B</i>", its
+<i>PE</i>
+would equal <i>E<sub>n </sub></i>and its <i>KE</i> would be zero. The electron
+would be motionless. Classically, for this value of <i>E<sub>n</sub></i>
+the electron could not increase its value of <i>r </i>beyond the point
+represented by <i>B</i>". If it did, it would be inside the "potential
+wall." For example, consider the point <i>C</i>". At this value of <i>r</i>,
+the <i>PE</i> is given by the value at <i>C</i>' which is <b><i>now greater</i></b>
+than <i>E<sub>n</sub></i> and hence the <i>KE</i> must be equal to the
+length of the line <i>C - C</i>'. But the <i>KE</i> must now be <b><i>negative</i></b>
+in sign so that the sum of <i>PE</i> and <i>KE</i> will still add up to
+<i>E<sub>n</sub></i>.
+What does a negative <i>KE</i> mean? It doesn't mean anything as it never
+occurs in a classical system.&nbsp; Nor does it occur in a quantum mechanical
+system. It is true that quantum mechanics does predict a finite probability
+for the electron being inside the potential curve and indeed for all values
+of <i>r</i> out to infinity. However, the quantum mechanical expression
+for <i>E<sub>n</sub></i> does not allow us to determine the instantaneous
+values for the <i>PE</i> and <i>KE</i>. Instead, we can determine only
+their average values. Thus quantum mechanics does not give equation <b><font color="#3333FF">(6)</font></b>
+but instead states only that the<b><i> average</i></b> potential and kinetic
+energies may be known:
+<br>&nbsp;
+<center><table width="100%">
+<tr>
+<td><b><font color="#3333FF">(7)</font></b></td>
+<td>
+<center><img src="Image103.gif" height=29 width=118></center>
+</td>
+</tr>
+</table></center>
+<p>A bar denotes the fact that the energy quantity has been averaged over
+the complete motion (all values of<i> r</i>) of the electron.
+<p>&nbsp;&nbsp; Why can <i>r</i> not appear in the quantum mechanical expression
+for <i>E<sub>n</sub></i>, and why can we obtain only average values for
+the <i>KE</i> and <i>PE</i>? When the electron is in a given energy level
+its energy is precisely known; it is <i>E<sub>n</sub></i>. The uncertainty
+in the value of the momentum of the electron is thus at a minimum. Under
+these conditions we have seen that our knowledge of the position of the
+electron is very uncertain and for an electron in a given energy level
+we can say no more about its position than that it is bound to the atom.
+Thus if the energy is to remain fixed and known with certainty, we cannot,
+because of the uncertainty principle, refer to (or measure) the electron
+as being at some particular distance <i>r</i> from the nucleus with some
+instantaneous values for its <i>PE </i>and<i> KE</i>. Instead, we may have
+knowledge of these quantities only when they are averaged over all possible
+positions of the electron. This discussion again illustrates the pitfalls
+(e.g., a negative kinetic energy) which arise when a classical picture
+of an electron as a particle with a definite instantaneous position is
+taken literally.
+<font size=-1><a href="section3note1.html" onclick="return popup(this, 'notes')">(Click
+here for note.)</a></font>
+<br>&nbsp;
+<br>&nbsp;
+<p>&nbsp;&nbsp; It is important to point out that the classical expressions
+which we write for the dependence of the potential energy on distance,
+-<i>e</i><sup><font size=-2>2</font></sup>/<i>r </i>for the hydrogen atom
+for example, are the expressions employed in the quantum mechanical calculation.
+However, only the average value of the <i>PE</i> may be calculated and
+this is done by calculating the value of -<i>e</i><sup><font size=-2>2</font></sup>/<i>r&nbsp;</i>
+at every point in space, taking into account the fraction of the total
+electronic charge at each point in space. The amount of charge at a given
+point in three-dimensional space is, of course, determined by the electron
+density distribution. Thus the value of&nbsp;<img src="Image106.gif" height=21 width=25 align=ABSBOTTOM>
+for the ground state of the hydrogen atom is the electrostatic energy of
+interaction between a nucleus of charge +1<i>e</i> with the surrounding
+spherical distribution of negative charge.
+<p>&nbsp;&nbsp; We can say more about the<img src="Image106.gif" height=21 width=25 align=ABSBOTTOM><font color="#000000">and<img src="Image105.gif" height=21 width=26 align=ABSBOTTOM></font>
+for an electron in an atom. Not only are these values constant for a given
+value of <i>n,</i> but also for any value of <i>n</i>,
+<br>&nbsp;
+<table width="100%">
+<tr>
+<td width="7%"></td>
+<td>
+<center><img src="Image104.gif" height=46 width=142></center>
+</td>
+</tr>
+</table>
+<p>Thus the&nbsp;<img src="Image105.gif" height=21 width=26 align=ABSBOTTOM>
+is always positive and equal to minus one half of the&nbsp;<img src="Image106.gif" height=21 width=25 align=ABSBOTTOM>.
+Since the total energy <i>E<sub>n</sub></i><sub> </sub>is negative when
+the electron is bound to the atom, we can interpret the stability of atoms
+as being due to the decrease in the&nbsp;<img src="Image106.gif" height=21 width=25 align=ABSBOTTOM>
+when the electron is attracted by the nucleus.
+<p>&nbsp;&nbsp; The question now arises as to why the electron doesn't
+"fall all the way" and sit right on the nucleus. When <i>r </i>= 0, the<img src="Image106.gif" height=21 width=25 align=ABSBOTTOM>would
+be equal to minus infinity, and the&nbsp;<img src="Image105.gif" height=21 width=26 align=ABSBOTTOM><font color="#000000">,</font>
+which is positive and thus destabilizing, would be zero. Classically this
+would certainly be the situation of lowest energy and thus the most stable
+one. The reason for the electron not collapsing onto the nucleus is a quantum
+mechanical one. If the electron was bound directly to the nucleus with
+no kinetic energy, its position and momentum would be known with certainty.
+This would violate Heisenberg's uncertainty principle. The uncertainty
+principle always operates through the kinetic energy causing it to become
+large and positive as the electron is confined to a smaller region of space.
+(Recall that in the example of an electron moving on a line, the&nbsp;<img src="Image105.gif" height=21 width=26 align=ABSBOTTOM>
+increased as the length of the line decreased.) The smaller the region
+to which the electron is confined, the smaller is the uncertainty in its
+position. There must be a corresponding increase in the uncertainty of
+its momentum. This is brought about by the increase in the kinetic energy
+which increases the magnitude of the momentum and thus the uncertainty
+in its value. In other words the bound electron must always possess kinetic
+energy as a consequence of quantum mechanics.
+<p>&nbsp;&nbsp;&nbsp; The&nbsp;<img src="Image105.gif" height=21 width=26 align=ABSBOTTOM>
+and&nbsp;<img src="Image106.gif" height=21 width=25 align=ABSBOTTOM>have
+opposite dependences on&nbsp;<img src="Image107.gif" height=21 width=12 align=ABSBOTTOM>.
+The&nbsp;<img src="Image106.gif" height=21 width=25 align=ABSBOTTOM> decreases&nbsp;
+(becomes more negative) as&nbsp;<img src="Image107.gif" height=21 width=12 align=ABSBOTTOM>decreases
+but the&nbsp;<img src="Image105.gif" height=21 width=26 align=ABSBOTTOM>
+increases (making the atom less stable) as&nbsp;<img src="Image107.gif" height=21 width=12 align=ABSBOTTOM>decreases.
+A compromise is reached to make the energy as negative as possible (the
+atom as stable as possible) and the compromise always occurs when&nbsp;<img src="Image66.gif" height=32 width=96 align=ABSCENTER>.
+A further decrease in&nbsp;<img src="Image107.gif" height=21 width=12 align=ABSCENTER>would
+decrease the&nbsp;<img src="Image106.gif" height=21 width=25 align=ABSCENTER>
+but only at the expense of a <b><i>larger increase</i></b> in the&nbsp;<img src="Image105.gif" height=21 width=26 align=ABSCENTER>.
+The reverse is true for an increase in&nbsp;<img src="Image107.gif" height=21 width=12 align=ABSBOTTOM>.
+Thus the reason the electron doesn't fall onto the nucleus may be summed
+up by stating that "the electron obeys quantum mechanics, and not classical
+mechanics."
+<center>
+<hr width="100%"></center>
+<center><table cols=4>
+<tr>
+<td>
+<center><a href="../intro.html"><img src="home.jpg" border=0 height=54 width=109></a></center>
+</td>
+<td><a href="section_2.html"><img src="prev.jpg" border="0" height=73 width=148></a></td>
+<td>
+<center><a href="section_4.html"><img src="next.jpg" border="0" height=73 width=148></a></center>
+</td>
+<td>
+<center><a href="section_3.html#Top"><img src="top.jpg" border=0 height=54 width=109></a></center>
+</td>
+</tr>
+</table></center>
+<br>&nbsp;
+<br>&nbsp;
+</body>
+</html>

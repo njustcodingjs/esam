@@ -1,0 +1,616 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Mozilla/4.77 [en] (Win98; U) [Netscape]">
+<meta name="Author" content="McMaster University-Chemistry">
+<title>Molecular Orbitals - Molecular Orbitals for Polyatomic Molecules</title>
+</head>
+<body>
+&nbsp;
+<table cols=1 width="100%" bgcolor="#FFFFCC">
+<tr>
+<td>
+<center>
+<h1>
+<a name="Top"></a>An Introduction to the Electronic Structure of Atoms
+and Molecules</h1></center>
+<center>Dr. Richard F.W. Bader&nbsp;
+<br><i><font size=-1>Professor of Chemistry / McMaster University / Hamilton,
+Ontario</font></i></center>
+<p><br>
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td rowspan="19" width="300" bgcolor="#000000">
+<center><img src="ch8pic.jpg" height=436 width=145></center>
+</td>
+<td width="20"></td>
+<td colspan="2" width="510"><b><font color="#000099"><font size=+1><a href="../intro.html">Preface</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#3333FF"><font size=+1><a href="../Chapter_1/intro.html">1.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#3333FF"><font size=+1><a href="../Chapter_1/intro.html">The
+Nature of the Problem</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#000099"><font size=+1><a href="../Chapter_2/intro.html">2.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../Chapter_2/intro.html">The
+New Physics</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#000099"><font size=+1><a href="../Chapter_3/intro.html">3.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../Chapter_3/intro.html">The
+Hydrogen Atom</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#000099"><font size=+1><a href="../Chapter_4/intro.html">4.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../Chapter_4/intro.html">Many-Electron
+Atoms</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#000099"><font size=+1><a href="../Chapter_5/intro.html">5.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../Chapter_5/intro.html">Electronic
+Basis for the Properties of the Elements</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#000099"><font size=+1><a href="../Chapter_6/intro.html">6.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../Chapter_6/intro.html">The
+Chemical Bond</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#000099"><font size=+1><a href="../Chapter_7/intro.html">7.&nbsp;</a></font></font></b></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../Chapter_7/intro.html">Ionic
+and Covalent Binding</a></font></font></b></td>
+</tr>
+<tr>
+<td valign=TOP><b><font color="#CC0000"><font size=+1>8.</font></font></b></td>
+<td colspan="2"><b><font color="#CC0000"><font size=+1>Molecular Orbitals</font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •&nbsp;</td>
+<td><b><font color="#3333FF"><font size=+1><a href="intro.html">Introduction</a></font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •&nbsp;</td>
+<td><b><font color="#3333FF"><font size=+1><a href="section_1.html">Angular
+Momentum in Diatomic Molecules</a></font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •</td>
+<td><b><font color="#3333FF"><font size=+1><a href="section_2.html">Symmetry
+Considerations</a></font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •&nbsp;</td>
+<td><b><font color="#3333FF"><font size=+1><a href="section_3.html">Molecular
+Orbitals for Homonuclear Diatomics</a></font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •&nbsp;</td>
+<td><b><font color="#3333FF"><font size=+1><a href="section_4.html">The
+Relative Binding Ability of Molecular Orbitals</a></font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •&nbsp;</td>
+<td><b><font color="#3333FF"><font size=+1><a href="section_5.html">Molecular
+Orbitals for Heteronuclear Molecules</a></font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •&nbsp;</td>
+<td><b><font color="#CC0000"><font size=+1>Molecular Orbitals for Polyatomic
+Molecules</font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •&nbsp;</td>
+<td><b><font color="#3333FF"><font size=+1><a href="further_reading.html">Further
+Reading</a></font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td valign=TOP>&nbsp; •&nbsp;</td>
+<td><b><font color="#3333FF"><font size=+1><a href="problems.html">Problems</a></font></font></b></td>
+</tr>
+<tr>
+<td></td>
+<td colspan="2"><b><font color="#000099"><font size=+1><a href="../contour_values.html">Table
+of Contour Values</a></font></font></b></td>
+</tr>
+</table>
+&nbsp;</td>
+</tr>
+</table>
+<hr width="100%">
+<br><b><font size=+1>Molecular Orbitals for Polyatomic Molecules</font></b>
+<p>The concept of a molecular orbital is readily extended to provide a
+description of the electronic structure of a polyatomic molecule. Indeed
+molecular orbital theory forms the basis for most of the quantitative theoretical
+investigations of the properties of large molecules.
+<p>&nbsp;&nbsp; In general a molecular orbital in a polyatomic system extends
+over all the nuclei in a molecule and it is essential, if we are to understand
+and predict the spatial properties of the orbitals, that we make use of
+the symmetry properties possessed by the nuclear framework. An analysis
+of the molecular orbitals for the water molecule provides a good introduction
+to the way in which the symmetry of a molecule determines the forms of
+the molecular orbitals in a polyatomic system.
+<p>&nbsp;&nbsp; There are three symmetry operations which transform the
+nuclear framework of the water molecule into itself and hence leave the
+nuclear potential field in which the electrons move unchanged <a href="section_6.html#Fig_8-10.">(Fig.
+8-10)</a>.
+<p><a name="Fig_8-10."></a>
+<center><img src="fig8-10a.jpg" height=471 width=500><img src="fig8-10b.jpg" height=262 width=500><img src="fig8-10c.jpg" height=224 width=500>
+<br><font size=-1><b>Fig. 8-10.</b>&nbsp; Symmetry elements for H</font><sub><font size=-2>2</font></sub><font size=-1>O.
+The bottom two diagrams illustrate the transformations of the 2<i>p</i></font><sub><font size=-2>y</font></sub><font size=-1>
+orbital on oxygen under the C</font><sub><font size=-2>2</font></sub><font size=-1>
+and <font face="Symbol">s</font></font><sub><font face="Times New Roman,Times"><font size=-2>2</font></font></sub><font size=-1>
+symmetry operations.</font></center>
+<p>For each symmetry operation there is a corresponding symmetry <b><i>element</i></b>.
+The symmetry elements for the water molecule are a two-fold axis of rotation
+C<sub><font size=-2>2</font></sub> and two planes of symmetry <font face="Symbol">s</font><sub><font size=-2>1</font></sub>
+and <font face="Symbol">s</font><sub><font size=-2>2</font></sub> <a href="section_6.html#Fig_8-10.">(Fig.
+8-10)</a>. A rotation of 180&deg; about the C<sub><font size=-2>2</font></sub>
+axis leaves the oxygen nucleus unchanged and interchanges the two hydrogen
+nuclei. A reflection through the plane labelled <font face="Symbol">s</font><sub><font size=-2>1</font></sub>
+leaves all the nuclear positions unchanged while a reflection through <font face="Symbol">s</font><sub><font size=-2>2</font></sub>
+interchanges the two protons. The symmetry operations associated with the
+three symmetry elements either leave the nuclear positions unchanged or
+interchange symmetrically equivalent (and hence indistinguishable) nuclei.
+Every molecular orbital for the water molecule must, under the same symmetry
+operations, be left unchanged or undergo a change in sign.
+<p>&nbsp;&nbsp; Similarly we may use the symmetry transformation properties
+of the atomic orbitals on oxygen and hydrogen together with their relative
+orbital energy values to determine the primary atomic components of each
+molecular orbital in a simple LCAO approximation to the exact molecular
+orbitals. Only atomic orbitals which transform in the same way under the
+symmetry operations may be combined to form a molecular orbital of a given
+symmetry. The symmetry transformation properties of the atomic orbitals
+on oxygen and hydrogen are given in <a href="section_6.html#Table_8-3.">Table 8-3</a>.
+A value of +1 or -1 opposite a given orbital in the table indicates that
+the orbital is unchanged or changed in sign respectively by a particular
+symmetry operation.
+<p>
+<hr size=1 width="90%">
+<center><a name="Table_8-3."></a>Table 8-3.
+<br>Symmetry Properties and Orbital Energies for the Water Molecule</center>
+<center><table width="80%">
+<tr>
+<td>
+<center>Atomic Orbitals&nbsp;
+<br>on Oxygen</center>
+</td>
+<td colspan="3">
+<center>Symmetry Behaviour Under</center>
+</td>
+<td>
+<center>Symmetry&nbsp;
+<br>Classification</center>
+</td>
+<td>&nbsp;</td>
+<td>
+<center>Orbital Energy (au)</center>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>
+<center><font face="Symbol">s</font><sub><font size=-2>2</font></sub></center>
+</td>
+<td>
+<center><font face="Symbol">s</font><sub><font size=-2>1</font></sub></center>
+</td>
+<td>
+<center><font face="Symbol">s</font><sub><font size=-2>2</font></sub></center>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<center>1<i>s</i></center>
+</td>
+<td>
+<center>+1</center>
+</td>
+<td>
+<center>+1</center>
+</td>
+<td>
+<center>+1</center>
+</td>
+<td>
+<center>a<sub><font size=-2>1</font></sub></center>
+</td>
+<td>&nbsp;</td>
+<td>
+<center>-20.669</center>
+</td>
+</tr>
+<tr>
+<td>
+<center>2s</center>
+</td>
+<td>
+<center>+1</center>
+</td>
+<td>
+<center>+1</center>
+</td>
+<td>
+<center>+1</center>
+</td>
+<td>
+<center>a<sub><font size=-2>1</font></sub></center>
+</td>
+<td>&nbsp;</td>
+<td>
+<center>-1.244</center>
+</td>
+</tr>
+<tr>
+<td>
+<center>2p<sub><font size=-2>z</font></sub></center>
+</td>
+<td>
+<center>+1</center>
+</td>
+<td>
+<center>+1</center>
+</td>
+<td>
+<center>+1</center>
+</td>
+<td>
+<center>a<sub><font size=-2>1</font></sub></center>
+</td>
+<td rowspan="3"><font face=""><font size=+4>&nbsp;}</font></font></td>
+<td rowspan="3">
+<center>-0.632</center>
+</td>
+</tr>
+<tr>
+<td>
+<center>2p<sub><font size=-2>x</font></sub></center>
+</td>
+<td>
+<center>-1</center>
+</td>
+<td>
+<center>+1</center>
+</td>
+<td>
+<center>-1</center>
+</td>
+<td>
+<center>b<sub><font size=-2>2</font></sub></center>
+</td>
+</tr>
+<tr>
+<td>
+<center>2p<sub><font size=-2>y</font></sub></center>
+</td>
+<td>
+<center>-1</center>
+</td>
+<td>
+<center>-1</center>
+</td>
+<td>
+<center>+1</center>
+</td>
+<td>
+<center>b<sub><font size=-2>1</font></sub></center>
+</td>
+</tr>
+<tr>
+<td>
+<center>Atomic Orbitals on Hydrogen</center>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<center>(1s<sub><font size=-2>1</font></sub> + 1s<sub><font size=-2>2</font></sub>)</center>
+</td>
+<td>
+<center>+1</center>
+</td>
+<td>
+<center>+1</center>
+</td>
+<td>
+<center>+1</center>
+</td>
+<td>
+<center>a<sub><font size=-2>1</font></sub></center>
+</td>
+<td align=CENTER valign=CENTER rowspan="2"><font face=""><font size=+4>}</font></font></td>
+<td rowspan="2">
+<center>-0.500</center>
+</td>
+</tr>
+<tr>
+<td>
+<center>(1s<sub><font size=-2>1</font></sub> - 1s<sub><font size=-2>2</font></sub>)</center>
+</td>
+<td>
+<center>-1</center>
+</td>
+<td>
+<center>+1</center>
+</td>
+<td>
+<center>-1</center>
+</td>
+<td>
+<center>b<sub><font size=-2>2</font></sub></center>
+</td>
+</tr>
+</table></center>
+<center><table cols=5 width="80%">
+<tr>
+<td colspan="5">
+<center>Molecular Orbital Energies for H<sub><font size=-2>2</font></sub>O
+(au)</center>
+</td>
+</tr>
+<tr>
+<td>
+<center>1a<sub><font size=-2>1</font></sub></center>
+</td>
+<td>
+<center>2a<sub><font size=-2>1</font></sub></center>
+</td>
+<td>
+<center>1b<sub><font size=-2>2</font></sub></center>
+</td>
+<td>
+<center>3a<sub><font size=-2>1</font></sub></center>
+</td>
+<td>
+<center>1b<sub><font size=-2>1</font></sub></center>
+</td>
+</tr>
+<tr>
+<td>
+<center>-20.565</center>
+</td>
+<td>
+<center>-1.339</center>
+</td>
+<td>
+<center>-0.728</center>
+</td>
+<td>
+<center>-0.595</center>
+</td>
+<td>
+<center>-0.521</center>
+</td>
+</tr>
+</table></center>
+<hr size=1 width="90%">
+<p>&nbsp;&nbsp; The 1<i>s</i>, 2<i>s</i> and 2<i>p<sub>z</sub></i> orbitals
+of oxygen are symmetric (i.e., unchanged) with respect to all three symmetry
+operations. They are given the symmetry classification a<sub><font size=-2>1</font></sub>.
+The 2<i>p</i><sub>x</sub> orbital, since it possesses a node in the <font face="Symbol">s</font><sub><font size=-2>2</font></sub>
+plane (and hence is of different sign on each side of the plane) changes
+sign when reflected through the <font face="Symbol">s</font><sub><font size=-2>2</font></sub>
+plane or when rotated by 180&deg; about the C<sub><font size=-2>2</font></sub>
+axis. It is classified as a b<sub><font size=-2>2</font></sub> orbital.
+The 2<i>p</i><sub>y</sub> orbital is antisymmetric with respect to the
+rotation operator and to a reflection through the <font face="Symbol">s</font><sub><font size=-2>1</font></sub>
+plane. It is labelled b<sub><font size=-2>1</font></sub>.
+<p>&nbsp;&nbsp; The hydrogen 1<i>s </i>orbitals when considered separately
+are neither unchanged nor changed in sign by the rotation operator or by
+a reflection through the <font face="Symbol">s</font><sub><font size=-2>2</font></sub>
+plane. Instead both these operations interchange these orbitals. The hydrogen
+orbitals are said to be symmetrically equivalent and when considered individually
+they do not reflect the symmetry properties of the molecule. However, the
+two linear combinations&nbsp; (1<i>s</i><sub><font size=-2>1</font></sub>
++ 1<i>s</i><sub><font size=-2>2</font></sub>)&nbsp; and&nbsp; (1<i>s</i><sub><font size=-2>1</font></sub>
+- 1<i>s</i><sub><font size=-2>2</font></sub>) do behave in the required
+manner. The former is symmetric
+<br>under all three operations and is of a<sub><font size=-2>1 </font></sub>symmetry
+while the latter is antisymmetric with respect to the rotation operator
+and to a reflection through the plane <font face="Symbol">s</font><sub><font size=-2>2</font></sub>
+and is of b<sub><font size=-2>2 </font></sub>symmetry.
+<p>&nbsp;&nbsp; The molecular orbitals in the water molecule are classified
+as a<sub><font size=-2>1</font></sub>, b<sub><font size=-2>1</font></sub>
+or b<sub><font size=-2>2 </font></sub>orbitals, as determined by their
+symmetry properties. This labelling of the orbitals is analogous to the
+use of the <font face="Symbol">s-p</font> and <i>g-u</i> classification
+in linear molecules. In addition to the symmetry properties of the atomic
+orbitals we must consider their relative energies to determine which orbitals
+will overlap significantly and form delocalized molecular orbitals.
+<p>&nbsp;&nbsp; The 1<i>s</i> atomic orbital on oxygen possesses a much
+lower energy than any of the other orbitals of a<sub><font size=-2>1</font></sub>
+symmetry and should not interact significantly with them. The molecular
+orbital of lowest energy in H<sub><font size=-2>2</font></sub>O should
+therefore correspond to an inner shell 1<i>s </i>atomic-like orbital centred
+on the oxygen. This is the first orbital of a<sub><font size=-2>1</font></sub>
+symmetry and it is labelled la<sub><font size=-2>1</font></sub>. Reference
+to the forms of the charge density contours for the la, molecular orbital
+<a href="section_6.html#Fig_8-11.">(Fig.
+8-11)</a> substantiates the above remarks regarding the properties of this
+orbital.
+<p><a name="Fig_8-11."></a>
+<center><img src="fig8-11a.jpg" height=285 width=550><img src="fig8-11b.jpg" height=233 width=550><img src="fig8-11c.jpg" height=297 width=550>
+<br><font size=-1><b>Fig. 8-11.</b>&nbsp; Contour maps of the molecular
+orbital charge densities for H</font><sub><font size=-2>2</font></sub><font size=-1>O.
+The maps for the la</font><sub><font size=-2>1</font></sub><font size=-1>,
+2a</font><sub><font size=-2>1</font></sub><font size=-1>, 3a</font><sub><font size=-2>1</font></sub><font size=-1>and
+1b</font><sub><font size=-2>2</font></sub><font size=-1> orbitals (all
+doubly-occupied) are shown in the plane of the nuclei. The lb</font><sub><font size=-2>1</font></sub><font size=-1>
+orbital has a node in this plane and hence the contour map for the 1b</font><sub><font size=-2>1</font></sub><font size=-1>
+orbital is shown in the plane perpendicular to the molecular plane. The
+total molecular charge density for H<sub>2</sub>O is also illustrated.
+The density distributions were calculated from the wave function determined
+by R. M. Pitzer, S. Aung and S. I. Chan, J. Chem. Phys. <i>49</i>, 2071
+(1968). <font color="#000000"><a href="../contour_values.html">Click here
+for contour values.</a></font></font></center>
+<p>Notice that the orbital energy of the la<sub><font size=-2>1</font></sub>
+molecular orbital is very similar to that for the 1<i>s</i> atomic orbital
+on oxygen. The 1a<sub><font size=-2>1 </font></sub>orbital in H<sub><font size=-2>2</font></sub>O
+is, therefore, similar to the l<font face="Symbol">s</font> inner shell
+molecular orbitals of the diatomic hydrides.
+<p>&nbsp;&nbsp; The atomic orbital of next lowest energy in this system
+is the 2<i>s</i> orbital of a<sub><font size=-2>1</font></sub> symmetry
+on oxygen. We might anticipate that the extent to which this orbital will
+overlap with the (1<i>s</i><sub><font size=-2>1</font></sub> + 1<i>s</i><sub><font size=-2>2</font></sub>)
+combination of orbitals on the hydrogen atoms to form the 2a<sub><font size=-2>1
+</font></sub>molecular
+orbital will be intermediate between that found for the 2<font face="Symbol">s</font>
+molecular orbitals in the diatomic hydrides CH and HF <a href="ref-fig8-9.html">(Fig.
+8-9)</a>. The 2<font face="Symbol">s</font> orbital in CH results from
+a strong mixing of the 2<i>s </i>orbital on carbon and the hydrogen 1<i>s
+</i>orbital.
+In HF the participation of the hydrogen orbital in the 2<font face="Symbol">s</font>
+orbital is greatly reduced, a result of the lower energy of the 2<i>s</i>
+atomic orbital on fluorine as compared to that of the 2<i>s</i> orbital
+on carbon.
+<p>&nbsp;&nbsp; Aside from the presence of the second proton, the general
+form and nodal structure of the 2a<sub><font size=-2>1</font></sub> density
+distribution in the water molecule is remarkably similar to the 2<font face="Symbol">s</font>
+distributions in CH and HF, and particularly to the latter. The charge
+density accumulated on the bonded side of the oxygen nucleus in the 2a<sub><font size=-2>1</font></sub>
+orbital is localized near this nucleus as the corresponding charge increase
+in the 2<font face="Symbol">s</font> orbital of HF is localized near the
+fluorine. The charge density of the 2a<sub><font size=-2>1</font></sub>
+molecular orbital accumulated in the region between the three nuclei will
+exert a force drawing all three nuclei together. The 2a<sub><font size=-2>1</font></sub>
+orbital is a binding orbital.
+<p>&nbsp;&nbsp; Although the three 2<i>p</i> atomic orbitals are degenerate
+in the oxygen atom the presence of the two protons results in each 2<i>p</i>
+orbital experiencing a different potential field in the water molecule.
+The nonequivalence of the 2<i>p</i> orbitals in the water molecule is evidenced
+by all three possessing different symmetry properties. The three 2<i>p</i>
+orbitals will interact to different extents with the protons and their
+energies will differ.
+<p>&nbsp;&nbsp; The 2<i>p</i><sub>x<i>&nbsp; </i></sub>orbital interacts
+most strongly with the protons and forms an orbital of b<sub><font size=-2>2
+</font></sub>symmetry
+by overlapping with the (1<i>s</i><sub><font size=-2>1</font></sub> - 1<i>s</i><sub><font size=-2>2</font></sub>)
+combination of 1<i>s </i>orbitals on the hydrogens. The charge density
+contours for the lb<sub><font size=-2>2
+</font></sub>orbital indicate that
+this simple LCAO description accounts for the principal&nbsp; features
+of this molecular orbital. The lb<sub><font size=-2>2</font></sub> orbital
+concentrates charge density along each O-H bond axis and draws the nuclei
+together. The charge density of the 1b<sub><font size=-2>2</font></sub>
+orbital binds all three nuclei. In terms of the forces exerted on the nuclei
+the 2a<sub><font size=-2>1</font></sub> and lb<sub><font size=-2>2</font></sub>
+molecular orbitals are about equally effective in binding the protons in
+the water molecule.
+<p>&nbsp;&nbsp;&nbsp; The 2<i>p</i><sub>z</sub> orbital may also overlap
+with the hydrogen 1<i>s </i>orbitals, the (1<i>s</i><sub><font size=-2>1</font></sub>
++ 1<i>s</i><sub><font size=-2>2</font></sub>) a<sub><font size=-2>1</font></sub>
+combination, and the result is the 3a<sub><font size=-2>1 </font></sub>molecular
+orbital. This orbital is concentrated along the<i> z</i>-axis and charge
+density is accumulated in both the bonded and nonbonded sides of the oxygen
+nucleus. It exerts a binding force on the protons and an antibinding force
+on the oxygen nucleus, a behaviour similar to that noted before for the
+3<font face="Symbol">s</font> orbitals in CH and HF.
+<p>&nbsp;&nbsp;&nbsp; The 2<i>p</i><sub>y</sub> orbital is not of the correct
+symmetry to overlap with the hydrogen 1<i>s</i> orbitals. To a first approximation
+the 1b<sub><font size=-2>1</font></sub> molecular orbital will be simply
+a 2<i>p</i><sub>y</sub> atomic orbital on the oxygen, perpendicular to
+the plane of the molecule. Reference to <a href="section_6.html#Fig_8-11.">Fig. 8-11</a>
+indicates that the 1b<sub><font size=-2>1</font></sub> orbital does resemble
+a 2<i>p</i> atomic orbital on oxygen but one which is polarized into the
+molecule by the field of the protons. The 1b<sub><font size=-2>1</font></sub>
+molecular orbital of H<sub><font size=-2>2</font></sub>O thus resembles
+a single component of the 1<font face="Symbol">p </font>molecular orbitals
+of the diatomic hydrides. The 1b<sub><font size=-2>1</font></sub> and the
+1<font face="Symbol">p</font> orbitals are essentially nonbinding. They
+exert a small binding force on the heavy nuclei because of the slight polarization.
+The force exerted on the protons by the pair of electrons in the 1b<sub><font size=-2>1</font></sub>
+orbital is slightly less than that required to balance the force of repulsion
+exerted by two of the nuclear charges on the oxygen nucleus. The 1b<sub><font size=-2>1</font></sub>
+and 1<font face="Symbol">p</font> electrons basically do no more than partially
+screen nuclear charge on the heavy nuclei from the protons.
+<p>&nbsp;&nbsp; In summary, the electronic configuration of the water molecule
+as determined by molecular orbital theory is
+<center>1a<font size=-2><sup>2</sup><sub>1</sub></font>2a<font size=-2><sup>2</sup><sub>1</sub></font>1b<font size=-2><sup>2</sup><sub>2</sub></font>3a<font size=-2><sup>2</sup><sub>1</sub></font>1b<font size=-2><sup>2</sup><sub>1</sub></font></center>
+The la<sub><font size=-2>1</font></sub> orbital is a nonbinding inner shell
+orbital. The pair of electrons in the la<sub><font size=-2>1</font></sub>
+orbital simply screen two of the nuclear charges on the oxygen from the
+protons. The 2a<sub><font size=-2>1</font></sub>, 1b<sub><font size=-2>2</font></sub>
+and 3a<sub><font size=-2>1</font></sub> orbitals accumulate charge density
+in the region between the nuclei and the charge densities in these orbitals
+are responsible for binding the protons in the water molecule. Aside from
+being polarized by the presence of the protons, the lb<sub><font size=-2>1</font></sub>
+orbital is a non-interacting 2<i>p</i><sub>y<i> </i></sub>orbital on the
+oxygen and is essentially nonbinding.
+<p>&nbsp;&nbsp; Before closing this introductory account of molecular orbital
+theory, brief mention should be made of the very particular success which
+the application of this theory has had in the understanding of the chemistry
+of a class of organic molecules called conjugated systems. Conjugated molecules
+are planar organic molecules consisting of a framework of carbon atoms
+joined in chains or rings by alternating single and double bonds. Some
+examples are
+<center><img src="fig230.jpg" height=245 width=617></center>
+<p>In the structural formulae for the cyclic molecules, e.g., benzene and
+naphthalene, it is usual not to label the positions of the carbon and hydrogen
+atoms by their symbols. A carbon atom joined to just two other carbon atoms
+is in addition bonded to a hydrogen atom, the C—H bond axis being projected
+out of the ring in the plane of the carbon framework and bisecting
+<br>the CCC bond angle.
+<p>&nbsp;&nbsp; The notion of these molecules possessing alternating single
+and double bonds is a result of our attempt to describe the bonding in
+terms of conventional chemical structures. In reality all six C—C bonds
+in benzene are identical and the C—C bonds in the other two examples possess
+properties intermediate between those for single and double bonds. In other
+words, the pairs of electrons forming the second or <font face="Symbol">p</font>
+bonds are not localized between specific carbon atoms but are delocalized
+over the whole network of carbon atoms, a situation ideally suited for
+a molecular orbital description.
+<p>&nbsp;&nbsp; We may consider each carbon atom in a conjugated molecule
+to be s<i>p</i><sup><font size=-2>2 </font></sup>hybridized and bonded
+through these hybrid orbitals to three other atoms in the plane. This accounts
+for the bonding of the hydrogens and for the formation of the singly-bonded
+carbon network. The electrons forming these bonds are called <font face="Symbol">s</font>
+electrons. The axis of the remaining 2<i>p</i> orbital on each carbon atom
+is directed perpendicular to the plane of the molecule and contains a single
+electron, called a <font face="Symbol">p</font> electron. A simple adaptation
+of molecular orbital theory, called H&uuml;ckel theory, which takes the
+<font face="Symbol">s</font>
+bonds for granted and approximates the molecular orbitals of the <font face="Symbol">p</font>
+electrons in terms of linear combinations of the 2<i>p</i><font face="Symbol">p</font>
+atomic orbitals on each carbon atom, provides a remarkably good explanation
+of the properties of conjugated molecules. H&uuml;ckel molecular orbital
+theory and its applications are treated in a number of books, some of which
+are referred to at the end of this chapter.
+<br>
+<hr width="100%">
+<table cols=4 width="100%">
+<tr>
+<td>
+<center><a href="../intro.html"><img src="home.jpg" border=0 height=54 width=109></a></center>
+</td>
+<td>
+<center><a href="section_5.html"><img src="prev.jpg" border=0 height=73 width=148></a></center>
+</td>
+<td>
+<center><a href="further_reading.html"><img src="next.jpg" border=0 height=73 width=148></a></center>
+</td>
+<td>
+<center><a href="section_6.html#Top"><img src="top.jpg" border=0 height=54 width=109></a></center>
+</td>
+</tr>
+</table>
+<br>&nbsp;
+</body>
+</html>
